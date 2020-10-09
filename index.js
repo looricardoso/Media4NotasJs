@@ -33,7 +33,7 @@ do {
 resultado = (nota1+nota2+nota3+nota4) / 4;
 
 if (resultado >= 0 && resultado < 5) {
-    alert(`Suas notas foram:\n\nNota1: ${nota1}\nNota2: ${nota2}\nNota3: ${nota3}\nNota4: ${nota4}\n\nVocê ficou com média ${resultado.toFixed(1)}\nResultado: Reprovado`);
+    alert(`Você ficou com média ${resultado.toFixed(1)}\nResultado: Reprovado`);
 } else if (resultado >= 5 && resultado <=6) {
     alert(`Você ficou com média ${resultado.toFixed(1)}\nResultado: Em recuperação`);
 } else {
